@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Quiz Hat</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+ integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="css/flashcard.css"type="text/css"rel="stylesheet">
+<link href="css/cards.css"type="text/css"rel="stylesheet">
+</head>
+<body style="background:#404040">
+
+<div class="row">
+	<div class="col-xs-1 logoBox">
+		<div class="logoTitle"style="border-bottom:#e6e6e6 solid 1px;background-color:black;color:#f2f2f2">
+			<img src="images/logo.png"style="width:60%;height:60%;margin-left:25%;border-radius:50%">
+			<p style="text-align:center;">Flash Maker</p>
+			</div>
+	</div>
+
+<a href="http://localhost:3000/flash"><img src="images/arrow.svg"class="arrow"/></a>
+
+
+<div class="col-xs-5 flashcard">
+
+<div class="border"></div>
+<div class="titleContainer"></div>
+<div class="numberContainer"></div>
+
+<div class="questionContainer"></div>
+
+<div class="inputContainer">
+ <input id="answers"name="answer"placeholder=" Enter your answer">
+<button class="answerButton btn btn-danger">Submit</button>
+</div>
+
+
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="./js/flashcards.js"></script>
+</body>
+
+</html>

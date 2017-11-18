@@ -1,0 +1,41 @@
+{
+
+   
+    "flashData": {
+        
+         "flashTitles":[
+                {
+            "title": "Mario"
+            }
+         ],
+   
+        "quiz": [
+            {
+                "question": "Who is the youngest Koopaling?",
+                
+                "answer": "lemmy koopa"
+            },
+            {
+                "question": "Where is Fawful from??",
+
+                "answer": "beanbean kingdom"
+            },
+            {
+                "question": "Where is the first world that mario enters to save peach?",
+               
+                "answer": "grass land"
+            },
+            {
+                "question": "What creature is kamek?",
+                
+                "answer": "koopa"
+            },
+            {
+                "question": "What creature keeps coming back to life?",
+                
+                "answer": "dry bones"
+            }]
+
+            }
+    
+}

@@ -1,0 +1,12 @@
+.right {
+background-color:green !important;
+	transition:all 1s ease-in;
+}
+.wrong {
+background-color:red !important;
+	transition:all 1s ease-in;
+}
+.normal {
+background-color:#e6e6e6;
+	transition:all 1s ease-in;
+}

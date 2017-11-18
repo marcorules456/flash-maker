@@ -1,0 +1,80 @@
+
+
+.logoBox{border-radius:2px;
+	color:#e6e6e6;
+	background:#262626;
+	border-bottom:1px gray solid;
+	border-radius:10px;
+	height:90px;
+	width:110px}
+	.logoTitle{
+	border-bottom:#e6e6e6 solid 1px;
+	}
+	.logo{
+	width:60%;
+	height:60%;
+	margin-left:25%;
+	border-radius:50%}
+	.title{
+		text-align:center;
+	}
+	.optionContainer{
+	opacity:0;
+	height:10%;
+	margin-top:10%;
+	margin-left:5%;
+	border-radius:4px;
+	border-bottom:1px #e6e6e6 solid}
+	.option{
+	color:green;
+	margin-top:10%;
+	padding-bottom:10px;
+	width:100%;
+	margin-left:5px}
+.flashContainer{
+	box-shadow: 1px 1px 1px black;
+	background:#404040;
+	height:800px;}
+	.titles{
+	color:#e6e6e6;
+	}
+	.flashcards{
+	height:30%;
+	width:20%;
+	box-shadow:1px 1px 5px white;
+	background:#e6e6e6;
+	margin-bottom:20px;
+	float:left;
+	border-radius:9px;
+
+	margin-left:1%}
+	.border{width:100%;
+	height:5px;
+	background:url('./../images/rainbow.jpg');
+	border-radius:2px}
+	.log{float:right;
+	margin-right:5%;
+	margin-top:2%;
+	border-radius:20px;}
+	.clicks{
+	float:left;
+	margin-left:4%;
+	border-radius:20px;}
+
+	h4{
+		text-align:center;
+	margin-bottom:10%;}
+	.flashcardContainer{height:100%;
+	width:100%;
+	margin-top:1%;
+	margin-left:5%;}
+body {
+	background:#404040;
+}
+
+.optionContainer:hover {
+	background:#e6e6e6;
+	transition:all .5s ease-in;
+	color:#404040;
+
+}
